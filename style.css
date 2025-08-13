@@ -54,7 +54,7 @@ body {
 .container h1,
 .container h2 {
   text-align: center;
-  color: rgb(32, 119, 190);
+  color: rgba(0, 0, 0, 0.571);
   margin: 1rem 0;
 }
 
@@ -68,13 +68,14 @@ body {
 
 /* Product Card */
 .product-card {
-  background: #fff;
+  background-color:rgb(176, 176, 236) ;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   padding: 1rem;
   transition: transform 0.2s ease;
+
 }
 
 .product-card:hover {
@@ -89,6 +90,7 @@ body {
 
 .product-info {
   margin-top: 0.5rem;
+  color: blueviolet;
 }
 
 .product-info span {
@@ -132,4 +134,8 @@ body {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.bla{
+  color: green;
+
 }
